@@ -1,0 +1,8 @@
+apiVersion: acme.org/v1alpha1
+kind: QuarkusApplication
+metadata:
+  name: example
+  namespace: iocanel
+spec:
+  coordinates: com.github.iocanel:quarkus-helloworld:1.2
+  repositoryUrl: https://jitpack.io
